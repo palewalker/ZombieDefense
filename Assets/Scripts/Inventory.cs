@@ -69,13 +69,10 @@ public class Inventory : MonoBehaviour
 
         for (int i = 0; i < slots.Length; i++)
         {
-            if(slots[i].item !=null)
+            if (slots[i].item == null)
             {
-                if (slots[i].item.itemName == "")
-                {
-                    slots[i].AddItem(_item, _count);
-                    return;
-                }
+                slots[i].AddItem(_item, _count);
+                return;
             }
         }
     }

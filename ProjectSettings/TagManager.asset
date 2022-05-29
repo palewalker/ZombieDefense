@@ -10,6 +10,7 @@ TagManager:
   - LevelPart
   - Dummie
   - Axe
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - 
   - FirstPerson
-  - 
+  - Item
   - 
   - 
   - 

@@ -4,7 +4,8 @@
 AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Revolver Shoot
   serializedVersion: 6
   m_Legacy: 0
@@ -1450,10 +1451,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.8333334
         value: {x: 0.059323117, y: -0.12314876, z: 0.023684742, w: 0.99033034}
-        inSlope: {x: 0.00000017881385, y: -0.00000017881385, z: -0.000000089406925,
-          w: 0}
-        outSlope: {x: 0.00000017881385, y: -0.00000017881385, z: -0.000000089406925,
-          w: 0}
+        inSlope: {x: 0.00000017881385, y: -0.00000017881385, z: -0.000000089406925, w: 0}
+        outSlope: {x: 0.00000017881385, y: -0.00000017881385, z: -0.000000089406925, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
@@ -1495,10 +1494,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.8333334
         value: {x: 0.00008630872, y: -0.2074405, z: -0.0020992674, w: 0.9782454}
-        inSlope: {x: -0.00000012380764, y: -0.0000007152554, z: -0.000000005587933,
-          w: 0}
-        outSlope: {x: -0.00000012380764, y: -0.0000007152554, z: -0.000000005587933,
-          w: 0}
+        inSlope: {x: -0.00000012380764, y: -0.0000007152554, z: -0.000000005587933, w: 0}
+        outSlope: {x: -0.00000012380764, y: -0.0000007152554, z: -0.000000005587933, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
@@ -1540,10 +1537,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.8333334
         value: {x: 0.00043080671, y: -0.18278283, z: 0.00057516724, w: 0.98315305}
-        inSlope: {x: -0.0000001501757, y: -0.0000007152554, z: -0.000000072643125,
-          w: 0}
-        outSlope: {x: -0.0000001501757, y: -0.0000007152554, z: -0.000000072643125,
-          w: 0}
+        inSlope: {x: -0.0000001501757, y: -0.0000007152554, z: -0.000000072643125, w: 0}
+        outSlope: {x: -0.0000001501757, y: -0.0000007152554, z: -0.000000072643125, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
@@ -2017,8 +2012,7 @@ AnimationClip:
         time: 0
         value: {x: -0.0000000342301, y: 0.9779607, z: -0.00000026311855, w: 0.2087891}
         inSlope: {x: -0.000000012943843, y: -0.010860443, z: 0.0000000037850896, w: 0.05060041}
-        outSlope: {x: -0.000000012943843, y: -0.010860443, z: 0.0000000037850896,
-          w: 0.05060041}
+        outSlope: {x: -0.000000012943843, y: -0.010860443, z: 0.0000000037850896, w: 0.05060041}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
@@ -42744,26 +42738,4 @@ AnimationClip:
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_GenerateMotionCurves: 0
-  m_Events:
-  - time: 0.16666667
-    functionName: Play_ShootSound
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.16666667
-    functionName: Turn_On_MuzzleFlash
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.41666666
-    functionName: Turn_Off_MuzzleFlash
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
